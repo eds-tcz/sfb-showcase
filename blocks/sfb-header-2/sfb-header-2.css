@@ -31,6 +31,7 @@
 
 .header-logo img {
   height: 40px;
+  width: fit-content;
 }
 
 .header-nav-list {
