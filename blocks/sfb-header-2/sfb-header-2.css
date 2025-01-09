@@ -31,7 +31,11 @@
 
 .header-logo img {
   height: 40px;
-  width: fit-content !important;
+}
+@media only screen and (max-width: 768px) {
+  .header-logo img {
+    width: fit-content;
+  }
 }
 
 .header-nav-list {
